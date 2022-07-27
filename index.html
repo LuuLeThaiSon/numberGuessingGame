@@ -5,11 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Game đoán số</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
 
     <h1>Game Đoán số</h1>
+
     <h3>Hãy chọn 1 số ngẫu nhiên trong khoảng từ 1 đến 100</h3>
+
     <h3>Bạn có 10 lần nhập để tìm ra số chính xác</h3>
+
+    <div class="main">
+
+        <form class="form">
+
+            <label>Nhập số</label> <br><br>
+            
+            <input type="number" id="guessNum"> <br><br>
+    
+            <input onclick="check()" type="submit" value="CHECK" id="submit">
+    
+        </form>
+
+        <div class="result">
+
+            <p>Các số đã nhập: <span class="guessed"></span></p>
+
+            <p>Số lần còn lại: <span class="remain">10</span></p>
+
+        </div>
+
+        <p id="lowOrHight"></p>
+
+        <p id="text"></p>
+        
+    </div>
+    
+
+
 </body>
 </html>
+
+<script src="./app.js"></script>

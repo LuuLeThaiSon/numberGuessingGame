@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 50%;
+    max-width: 300px;
+    min-width: 480px;
+    margin: 0 auto;
+}
+
+h1 {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    width: 480px;
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.main {
+    text-align: center;
+    height: 500px;
+    background-color: aqua;
+    font-size: 35px;
+    padding-top: 20px;
+}
+
+#guessNum {
+    width: 450px;
+    height: 100px;
+    font-size: 30px;
+    border-style: none;
+    border: 5px solid;
+    border-color: rgb(136, 98, 240);
+    border-radius: 10px;
+    text-align: center;
+}
+
+#submit {
+    background-color: yellow;
+    border: none;
+    width: 200px;
+    height: 50px;
+    font-size: 35px;
+    border-radius: 25px;
+}
+
+.main #submit:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
